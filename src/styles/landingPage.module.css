@@ -51,26 +51,27 @@
     margin-inline: 120px;
     display: grid;
     grid-template-columns: 520px 1fr;
+    gap: 24px;
 }
 
-.left {
+.hero .left {
     align-self: center;
     display: flex !important;
     flex-direction: column;
     gap: 32px !important;
 }
 
-.left h1 {
+.hero .left h1 {
     color: var(--text-black);
     font-size: 4rem;
     font-weight: 500;
 }
 
-.left h1 span {
+.hero .left h1 span {
     color: var(--green);
 }
 
-.left button {
+.hero .left button {
    color: var(--text-white);
 }
 
@@ -90,7 +91,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 300px;
+}
+
+.top .left {
+    width: 50ch;
 }
 
 .top .left h2 {
@@ -98,7 +102,7 @@
 }
 
 .top .right {
-    min-width: 250px;
+    min-width: 220px;
 }
 
 .cards {
@@ -122,6 +126,11 @@
 
 .card p {
     color: var(--darker-green);
+}
+
+.card:not(:first-child) img { 
+    object-fit: contain;
+    width: 150px;
 }
 
 
@@ -152,9 +161,10 @@
 
 .image {
     width: fit-content;
-    /* max-width: 200px; */
     display: flex;
 }
+
+
 
 .feature {
     display: grid;
@@ -262,13 +272,13 @@
     font-family: "Quicksand", sans-serif;
 }
 
-.left {
-    display: grid;
-    gap: 8px;
+.footer > .left {
+    display: grid !important;
+    gap: 8px !important;
     height: fit-content;
 }
 
-.left .logo {
+.footer .left .logo {
     width: 200px;
 }
 

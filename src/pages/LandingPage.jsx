@@ -75,7 +75,7 @@ export default function LandingPage() {
     const [questions, setQuestions] = useState([
         {
             "id": 1,
-            "active": false,
+            "active": true,
             "question": "What is Serenity?",
             "answer": "Serenity is your private, personalized mental health and wellness space at work. Serenity is not a performance tracker. It's to support your mental health, not monitor it."
         },
