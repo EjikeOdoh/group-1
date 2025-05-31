@@ -1,5 +1,51 @@
+:root {
+  --primary: #004846;
+  --text-black: #131927;
+  --text-dark-grey: #6D717F;
+  --text-white: #FFFFFF;
+  --green: #03594E;
+  --mental-green: #02473E;
+  --light-green: #E6EEED;
+  --lighter-green: #2E756C;
+  --darker-green: #011F1B;
+  --text: #171717;
+  --black: #000000;
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background-color: var(--green);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-inline: 24px;
+  width: fit-content;
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 1.125rem;
+  text-wrap: nowrap;
+  color: inherit;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  font-family: "Manrope", sans-serif;
 }

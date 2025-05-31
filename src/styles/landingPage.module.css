@@ -1,0 +1,309 @@
+.container {}
+
+
+
+.container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.bg {
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar {
+    padding: 32px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.menu a {
+    padding: 12px 24px;
+    color: var(--text-black);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.btns {
+    display: flex;
+    gap: 8px;
+    color: var(--text-white);
+}
+
+.signInBtn {
+    background-color: transparent;
+    color: var(--text-dark-grey);
+    font-weight: 600;
+}
+
+.hero {
+    flex: 1;
+    margin-inline: 120px;
+    display: grid;
+    grid-template-columns: 520px 1fr;
+}
+
+.left {
+    align-self: center;
+    display: flex !important;
+    flex-direction: column;
+    gap: 32px !important;
+}
+
+.left h1 {
+    color: var(--text-black);
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.left h1 span {
+    color: var(--green);
+}
+
+.left button {
+   color: var(--text-white);
+}
+
+
+.about {
+    padding: 120px;
+    display: grid;
+    gap: 24px;
+
+}
+
+.top {
+    padding: 64px 120px;
+    background-color: var(--green);
+    border-radius: 32px;
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+.top .left h2 {
+    margin-bottom: 24px;
+}
+
+.top .right {
+    min-width: 250px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    display: grid;
+    gap: 24px;
+    background-color: white;
+    border-radius: 32px;
+    border: 1px solid var(--light-green);
+    padding: 56px;
+}
+
+.card h2 {
+    color: var(--darker-green);
+}
+
+.card p {
+    color: var(--darker-green);
+}
+
+
+.offers {
+    padding: 135px 120px;
+    background-color: var(--green);
+    color: var(--text-white);
+}
+
+.offers h2 {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.offers>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.offer {
+    background-color: var(--lighter-green);
+    border-radius: 20px;
+    padding: 60px 30px;
+    display: grid;
+    gap: 40px;
+}
+
+.image {
+    width: fit-content;
+    /* max-width: 200px; */
+    display: flex;
+}
+
+.feature {
+    display: grid;
+    gap: 20px
+}
+
+.feature h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.features {
+    display: grid;
+    gap: 12px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.125rem;
+}
+
+.faq {
+    padding: 120px;
+    background-color: white;
+}
+
+.faq h2 {
+    margin-bottom: 48px;
+    text-align: center;
+    color: var(--darker-green);
+}
+
+.accordion {
+    width: 800px;
+    margin: auto;
+}
+
+.item {
+    padding: 24px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.question p {
+    color: var(--darker-green);
+    font-size: 1rem;
+}
+
+.question button {
+    padding: 0;
+    background: none;
+    color: var(--text);
+    font-size: 1rem;
+}
+
+.item>p {
+    font-size: 0.875rem;
+    color: var(--darker-green);
+}
+
+
+
+.cta {
+    margin: 80px 120px;
+    padding: 120px;
+    background-color: var(--primary);
+    border-radius: 32px;
+    color: var(--text-white);
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.cta h2 {
+    margin-bottom: 8px;
+}
+
+.cta p {
+    font-size: 1.25rem;
+}
+
+.cta button {
+    background-color: var(--text-white);
+    color: var(--text-dark-grey);
+}
+
+
+
+
+.footer {
+    padding: 96px 120px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 70px;
+    background-color: white;
+    background-image: url(../images/bg3.png);
+    color: var(--text-dark-grey);
+    font-family: "Quicksand", sans-serif;
+}
+
+.left {
+    display: grid;
+    gap: 8px;
+    height: fit-content;
+}
+
+.left .logo {
+    width: 200px;
+}
+
+.footer .left>p {
+    color: #000000;
+    font-size: 1.125rem;
+}
+
+.smIcons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--text-black);
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCol {
+    display: grid;
+    gap: 20px;
+}
+
+.footerCol h3 {
+    color: var(--text-dark-grey);
+    font-size: 1.35rem;
+    font-weight: 600;
+
+}
+
+.footerCol p {
+    font-size: 1rem;
+    color: var(--text-dark-grey);
+    font-weight: 600;
+}
