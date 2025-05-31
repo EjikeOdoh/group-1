@@ -11,6 +11,7 @@ import { SiInstagram } from 'react-icons/si'
 import { CiLinkedin, CiTwitter } from 'react-icons/ci'
 import { FaMinus, FaPlus, FaStar } from 'react-icons/fa'
 import { useState } from 'react'
+import { MdMenu } from 'react-icons/md'
 
 
 function Card(props) {
@@ -154,6 +155,10 @@ export default function LandingPage() {
                         <button className={styles.signInBtn}>Sign In</button>
                         <button className={styles.signUpBtn}>Sign Up</button>
                     </div>
+
+                    <button className={styles.menuBtn}>
+                        <MdMenu size={24} />
+                    </button>
                 </nav>
 
                 <div className={styles.hero}>
