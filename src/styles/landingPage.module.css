@@ -332,10 +332,6 @@
         font-size: 1.5rem;
     }
 
-    /* .bg {
-        max-width: 80;
-    } */
-
     .navbar {
         padding: 24px;
     }
@@ -414,6 +410,7 @@
         margin: auto;
         margin-top: 24px;
     }
+
 
     .offers {
         padding: 80px 24px;

@@ -1,0 +1,51 @@
+.card {
+    background-color: white;
+    border: 1px solid #B1CCC8;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
+    flex: 1;
+    max-width: 400px;
+}
+
+.top {
+    display: grid;
+    gap: 48px;
+}
+
+.top .label h3 {
+    color: var(--text-black);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.top .label p {
+    color: var(--text-black);
+    font-size: 0.875rem;
+}
+
+.top h1 {
+    font-weight: 500;
+    color: var(--text-black);
+    font-size: 2rem;
+}
+
+.top .options {
+    display: grid;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+    align-items: start;
+}
+
+.row p {
+    font-size: 0.875rem;
+    color: var(--text-black);
+}

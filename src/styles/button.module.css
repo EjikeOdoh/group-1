@@ -1,0 +1,6 @@
+.btn {
+    width: 100%;
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+}

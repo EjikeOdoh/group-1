@@ -1,0 +1,12 @@
+.btn {
+    background-color: transparent;
+    border: 1px solid var(--mental-green);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-black);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
