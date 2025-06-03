@@ -18,14 +18,14 @@ function App() {
     <>
 
       <LandingPage />
-      <AccountSelection />
-      <IndividualSignUp />
-      <AccountCreation />
-      <IndividualSignIn />
-      <CompanyInfo />
-      <IndividualInfo />
-      <CompanyPayment />
-      <IndividualPayment />
+      {/* <AccountSelection /> */}
+      {/* <IndividualSignUp /> */}
+      {/* <AccountCreation /> */}
+      {/* <IndividualSignIn /> */}
+      {/* <CompanyInfo /> */}
+      {/* <IndividualInfo /> */}
+      {/* <CompanyPayment /> */}
+      {/* <IndividualPayment /> */}
     </>
   )
 }
